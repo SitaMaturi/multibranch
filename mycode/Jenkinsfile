@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('Continuous Download-cards') 
 	{
-    git 'https://github.com/tsri010203/mycode.git'
+    git 'https://github.com/SitaMaturi/multibranch.git'
 	}
     stage('Continuous Build-cards') 
 	{
